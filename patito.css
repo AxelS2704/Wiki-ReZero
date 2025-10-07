@@ -84,7 +84,7 @@ h2{
   display: flex;
   justify-content: center; /* Centrar horizontalmente */
   align-items: center; /* Centrar verticalmente */
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .space {
