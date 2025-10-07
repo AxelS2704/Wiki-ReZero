@@ -1,0 +1,104 @@
+/* Modo oscuro */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode header {
+  background-color: #444;
+}
+
+.dark-mode body {
+  background-color: #1a1a1a;
+  color: #f2f2f2;
+}
+  
+.dark-mode ul li,
+.dark-mode ul li a {
+  color: white;
+}
+
+.dark-mode ol li,
+.dark-mode ol li a {
+  color: white;
+}
+
+
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+.morado{ 
+
+    color: #B695C0; 
+} 
+.nav { 
+
+    display: flex; 
+
+    justify-content: center; 
+
+    background-color: #40CFFF; 
+} 
+
+ul { 
+
+    display: flex; 
+
+    list-style: none; 
+
+    padding: 0; 
+} 
+
+li{ 
+
+    margin: 10px; 
+} 
+
+a{ 
+
+    text-decoration: none; 
+
+    color: white; 
+
+    font-weight: bold; 
+} 
+
+a:hover { 
+
+    color: #ff0080; 
+} 
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+  }
+
+  
+   p {
+    font-family: arial;
+    font-size: 22px;
+    margin: 0 auto;
+    padding: 20px 40px;
+  }
+
+    .fucsia{ 
+       color: #ff0080;
+        text-align: center; 
+        font-family: Arial,sans-serif; 
+    } 
+    
+    h2{
+      color: #ff0080;
+        font-family: Arial,sans-serif; 
+    }
+
+    ol {
+      font-family: Arial,sans-serif;
+      font-size: 16px; 
+      color: black; 
+      margin-left: 20px; 
+    }
+    

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- css del formulario -->
+<html>
+    <head>
+        <title>Formulario de registro</title>
+        <meta charset = "utf-8">
+        <link rel="icon" type ="image/png" href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/4be97920-30c8-4909-bc13-ae88c0366a82/dbcgrql-f91e4662-2e8b-4aaf-b0be-5410af2ed3fc.png">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body>
+        <h1>Formulario de opinión</h1>
+        <form id="registrationForm">
+            <div>
+                <label for="name">Nombre: </label>
+                <input type="text" id="name" required>
+                <p class="error" id="nameError"></p>
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" id="email" required>
+                <p class="error" id="emailError"></p>
+            </div>
+            <div>
+            <label for="opinion">Opinion: </label>
+            <input type="text" id="opinion" required>
+            <p class="error" id="opinionError"></p>
+        </div>
+        <button type="submit">Enviar</button>
+        </form>
+        <script src="script.js"></script>
+
+    </body>
+    <footer>
+        <img src="https://media.tenor.com/MBZ9WO9DrDsAAAAC/re-zero-rem.gif">
+    </footer>
+</html>

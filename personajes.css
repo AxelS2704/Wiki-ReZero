@@ -1,0 +1,114 @@
+/* Modo oscuro */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode header {
+  background-color: #444;
+}
+
+.dark-mode body {
+  background-color: #1a1a1a;
+  color: #f2f2f2;
+}
+  
+.dark-mode ul li,
+.dark-mode ul li a {
+  color: white;
+}
+
+.dark-mode ol li,
+.dark-mode ol li a {
+  color: white;
+}
+
+
+/* Estilos para el header */
+header {
+  background-color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  color: #B695C0;
+}
+
+/* Estilos para la barra de navegación */
+.nav {
+  display: flex;
+  justify-content: center;
+  background-color: #40CFFF;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff0080;
+}
+
+/* Estilos adicionales para los párrafos y los gifs */
+
+  p {
+    font-family: arial;
+    font-size: 22px;
+    margin: 0 auto;
+    padding: 20px 40px;
+  }
+
+.gif {
+  width: 50%;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* Estilos adicionales para la sección de videos relacionados */
+.seccion {
+  clear: both;
+}
+
+/* Estilos adicionales para el diseño general de la página */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
+
+h2{
+  text-align: center;
+}
+
+.seccion {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+}
+
+.space {
+  width: 10px;
+  height: 1px; /* Altura opcional para visualización */
+}
+
+.portada{
+  display: flex;
+  margin: 0 auto;
+  float: center;
+}
